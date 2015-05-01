@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MyFirstApp</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_displayoperator">Operator</string>
+    <string name="title_activity_displaycellid">Cell Id</string>
+    <string name="title_activity_displaystrength">Signal Strength</string>
+    <string name="title_activity_startpop">POP</string>
+    <string name="title_activity_alarm">Alarm</string>
+    <string name="title_activity_sigstrength">Signal Strength</string>
+    <string name="title_activity_cellid">Cell ID</string>
+    <string name="title_activity_practice">Practice</string>
+    <string name="title_activity_viewdb">Data Base</string>
+    <string name="title_activity_strengthdb">All Data Base</string>
+    <string name="title_activity_location">Your Location</string>
+    <string name="title_activity_stdb">Data Base</string>
+    <string name="title_activity_deleterow">Delete</string>
+
+</resources>

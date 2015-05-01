@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.aravind.myfirstapp" >
+
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".displayoperator"
+            android:label="@string/title_activity_displayoperator"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.aravind.myfirstapp.MainActivity" />
+        </activity>
+        <activity
+            android:name=".displaycellid"
+            android:label="@string/title_activity_displaycellid"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.aravind.myfirstapp.MainActivity" />
+        </activity>
+        <activity
+            android:name=".displaystrength"
+            android:label="@string/title_activity_displaystrength"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.aravind.myfirstapp.MainActivity" />
+        </activity>
+        <activity
+            android:name=".startpop"
+            android:label="@string/title_activity_startpop"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.aravind.myfirstapp.MainActivity" />
+        </activity>
+        <activity
+            android:name=".alarm"
+            android:label="@string/title_activity_alarm"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.aravind.myfirstapp.MainActivity" />
+        </activity>
+        <activity
+            android:name=".sigstrength"
+            android:label="@string/title_activity_sigstrength"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.aravind.myfirstapp.MainActivity" />
+        </activity>
+        <activity
+            android:name=".cellid"
+            android:label="@string/title_activity_cellid"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.aravind.myfirstapp.MainActivity" />
+        </activity>
+        <activity
+            android:name=".practice"
+            android:label="@string/title_activity_practice"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.aravind.myfirstapp.MainActivity" />
+        </activity>
+        <activity
+            android:name=".viewdb"
+            android:label="@string/title_activity_viewdb"
+            android:parentActivityName=".practice" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.aravind.myfirstapp.practice" />
+        </activity>
+        <activity
+            android:name=".strengthdb"
+            android:label="@string/title_activity_strengthdb"
+            android:parentActivityName=".sigstrength" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.aravind.myfirstapp.sigstrength" />
+        </activity>
+        <activity
+            android:name=".location"
+            android:label="@string/title_activity_location"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.aravind.myfirstapp.MainActivity" />
+        </activity>
+        <activity
+            android:name=".stdb"
+            android:label="@string/title_activity_stdb"
+            android:parentActivityName=".cellid" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.aravind.myfirstapp.cellid" />
+        </activity>
+
+        <service android:name=".myservices" />
+
+        <activity
+            android:name=".deleterow"
+            android:label="@string/title_activity_deleterow"
+            android:parentActivityName=".alarm" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.aravind.myfirstapp.alarm" />
+        </activity>
+    </application>
+
+</manifest>
